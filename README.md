@@ -39,21 +39,3 @@ You have the basic layout and parts of the weather application | 30
 A User is suggested the full list of Utah cities with an inputed prefix | 15
 A User can search for an inputed city's weather | 30
 A User can search Stack Exchange for an inputed word | 15
-3) The submit button will also query the <a href="https://openweathermap.org/api">Open Weather REST Service</a> to get the current weather for that city. These [hints](https://github.com/BYUCS260/Lab2-JQuery/wiki/Connecting-to-OpenWeather) may be helpful.
-
-4) You must also add a section where a user can type a word into an input field, with a button that will query the [StackExchange REST service](https://api.stackexchange.com/docs/search) for questions with the word in the topic.  For example, if the user had entered "javascript" in the form, then you would create the following REST request
-
-https://api.stackexchange.com/2.2/search?order=desc&sort=activity&intitle=javascript&site=stackoverflow
-
-#### Grading:
-
-- Grading is based on the following table (subject to change):
-
-Behavior | Approximate Points
---- | ---
-You have the basic layout and parts of the application | 25
-Your application correctly suggests cities based on the input value | 20
-A User can search for an inputed city's weather | 20
-A User can search Stack Exchange for an inputed word | 25
-Your page looks really good. This is subjective, so wow us. | 10
-
