@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    margin: 5%;
+    background-color: lightblue;
+}
+
+#displayCity {
+    background: lightgrey;
+}
+
+#displayQuestion {
+    background: lightgrey;
+}
+
+li {
+    border: 1px solid black;
+    padding: 5px;
+    background: #F5F5F5;
+}
